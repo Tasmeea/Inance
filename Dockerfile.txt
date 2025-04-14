@@ -7,5 +7,5 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy your site to nginx HTML folder
 COPY . /usr/share/nginx/html
 
-# Expose port 80
+#Expose port 80
 EXPOSE 80
