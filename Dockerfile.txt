@@ -1,7 +1,7 @@
 ######Use nginx to serve static files
 FROM nginx:latest
 
-# Remove default nginx HTML
+#### Remove default nginx HTML
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your site to nginx HTML folder
