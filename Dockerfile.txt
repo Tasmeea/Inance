@@ -1,4 +1,4 @@
-# Use nginx to serve static files
+######Use nginx to serve static files
 FROM nginx:latest
 
 # Remove default nginx HTML
